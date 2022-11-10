@@ -2,7 +2,7 @@
 title: Предварительные установки ПО необходимые для работы воркспейса
 description: 
 published: true
-date: 2022-11-10T14:35:01.893Z
+date: 2022-11-10T14:39:40.540Z
 tags: workspace, packages
 editor: markdown
 dateCreated: 2022-11-10T08:50:28.102Z

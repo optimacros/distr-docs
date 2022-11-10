@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Centos 7
 description: 
 published: true
-date: 2022-11-10T14:35:12.063Z
+date: 2022-11-10T14:39:40.540Z
 tags: workspace, centos
 editor: markdown
 dateCreated: 2022-11-10T10:04:27.991Z
