@@ -1,8 +1,8 @@
 ---
-title: Установка на на операционную систему 8
+title: Установка на на операционную систему Centos 8
 description: 
 published: true
-date: 2022-11-10T14:56:05.732Z
+date: 2022-11-10T14:56:46.156Z
 tags: workspace, centos
 editor: markdown
 dateCreated: 2022-11-10T14:56:05.732Z
