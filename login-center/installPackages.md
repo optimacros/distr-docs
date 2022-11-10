@@ -2,7 +2,7 @@
 title: Предварительные установки ПО необходимые для работы логин центра
 description: 
 published: true
-date: 2022-11-10T09:46:23.671Z
+date: 2022-11-10T14:34:59.857Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-09T04:56:33.478Z

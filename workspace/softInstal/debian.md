@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Debian
 description: 
 published: true
-date: 2022-11-10T09:46:30.058Z
+date: 2022-11-10T14:35:06.005Z
 tags: workspace, debian
 editor: markdown
 dateCreated: 2022-11-10T09:04:42.654Z

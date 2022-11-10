@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Ubuntu
 description: 
 published: true
-date: 2022-11-10T09:46:32.281Z
+date: 2022-11-10T14:35:08.036Z
 tags: workspace, ubuntu
 editor: markdown
 dateCreated: 2022-11-10T09:09:11.362Z

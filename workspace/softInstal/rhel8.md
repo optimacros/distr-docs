@@ -2,7 +2,7 @@
 title: Установка на на операционную систему RHEL 8
 description: 
 published: true
-date: 2022-11-10T09:46:34.481Z
+date: 2022-11-10T14:35:10.046Z
 tags: workspace, rhel
 editor: markdown
 dateCreated: 2022-11-10T09:11:13.145Z
