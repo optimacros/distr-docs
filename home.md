@@ -2,7 +2,7 @@
 title: Техническая документация по установке и обновлению дистрибутивов проекта Optimacros.
 description: разделы документации
 published: true
-date: 2022-11-10T09:46:10.476Z
+date: 2022-11-10T14:06:13.361Z
 tags: index
 editor: markdown
 dateCreated: 2022-11-03T09:01:42.188Z
@@ -15,3 +15,4 @@ dateCreated: 2022-11-03T09:01:42.188Z
 - [Application Manager](/app_manager/home)
 - [Document Printer](/doc_printer/home)
 {.links-list}
+kk
