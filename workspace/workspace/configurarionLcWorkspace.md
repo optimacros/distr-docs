@@ -2,7 +2,7 @@
 title: Настройка Логин Центра и воркспейса, установленных на одном сервере
 description: 
 published: true
-date: 2022-11-11T06:08:10.669Z
+date: 2022-11-11T06:10:19.938Z
 tags: install, workspace, login center
 editor: markdown
 dateCreated: 2022-11-11T06:08:10.669Z
