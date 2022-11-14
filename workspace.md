@@ -2,7 +2,7 @@
 title: Workspace
 description: 
 published: true
-date: 2022-11-14T08:58:35.514Z
+date: 2022-11-14T08:59:55.667Z
 tags: workspace, index
 editor: markdown
 dateCreated: 2022-11-03T10:18:18.456Z
@@ -14,7 +14,7 @@ dateCreated: 2022-11-03T10:18:18.456Z
 - [Чистая установка дистрибутива Воркспейса](/ru/workspace/cleaninstallation)
 # Настройка
 
-- [Настройка Логин Центра и воркспейса, установленных на одном сервере](/ru/workspace/configurarionLcWorkspace)   
+- [Настройка Логин Центра и воркспейса, установленных на одном сервере](/ru/workspace/config/configurarionLcWorkspace) 
 - [Описание манифест файла Воркспейса](/ru/workspace/config/manifest)
 - [Подключение и настройка OLTP на воркспейсе](/ru/workspace/config/oltp)
 - Формула расчёта размера воркспейса
