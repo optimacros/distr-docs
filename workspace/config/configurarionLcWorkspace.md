@@ -2,7 +2,7 @@
 title: Настройка Логин Центра и воркспейса, установленных на одном сервере
 description: 
 published: true
-date: 2022-11-16T03:56:17.637Z
+date: 2022-11-16T03:58:59.213Z
 tags: install, workspace, login center
 editor: markdown
 dateCreated: 2022-11-11T06:08:10.669Z
@@ -42,7 +42,7 @@ dateCreated: 2022-11-11T06:08:10.669Z
 
 для версии < 2.3.2
 
-[ws80.conf.template](wsProxyTemplates/ws80_template)
+[ws80.conf.template](wsProxyTemplates/ws80template)
 
 [ws443.conf.template](wsProxyTemplates/ws443_template)
 
