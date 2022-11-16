@@ -2,16 +2,16 @@
 title: Формула расчёта счётчика воркспейса
 description: 
 published: true
-date: 2022-11-16T02:32:04.129Z
+date: 2022-11-16T02:38:10.209Z
 tags: workspace
 editor: ckeditor
 dateCreated: 2022-11-16T02:31:51.370Z
 -->
 
-<h1 class="toc-header" id="чтобы-рассчитать-то-какого-размера-будет-воркспейс-на-счётчике-нужно-воспользоваться-формулой"> Чтобы рассчитать, то какого размера будет воркспейс на счётчике, нужно воспользоваться формулой:</h1>
-<p><img alt="wssize.jpg" src="/workspace/wssize.jpg"><br>
-Размером воркспейса принято называть счётчик зелёной зоны, в данном случае он равен 11.5 GB (рис. выше)</p>
-<pre v-pre="true" class="prismjs line-numbers"><code class="language-bash">const maxSysMem = 1024 * 1024 * 1024 * 16;
+<h1>Чтобы рассчитать, то какого размера будет воркспейс на счётчике, нужно воспользоваться формулой:</h1>
+<figure class="image"><img src="/workspace/wssize.jpg" alt="wssize.jpg"></figure>
+<p><br>Размером воркспейса принято называть счётчик зелёной зоны, в данном случае он равен 11.5 GB (рис. выше)</p>
+<pre><code class="language-javascript">const maxSysMem = 1024 * 1024 * 1024 * 16;
 let sysMem = memory * 0.25;
 if (sysMem &gt; maxSysMem) {
     sysMem = maxSysMem;
@@ -19,13 +19,18 @@ if (sysMem &gt; maxSysMem) {
 const workspaceSize = (memory - sysMem) / 2;
 </code></pre>
 <p>Где <code>memory</code> это значение, которое в соответствующем поле memory, мы указываем в файле <code>manifest.json</code></p>
-<h1 class="toc-header" id="расчет-размера-памяти-выделенной-воркспейсу"> Расчет размера памяти выделенной воркспейсу</h1>
-<h2 class="toc-header" id="задать-значение-счетчика-более-24gb"> Задать значение счетчика более 24Gb</h2>
-<p><code>greenSize</code> - размер зеленой зоны счетчика.<br>
-В данном случае в переменной <code>memory</code> вносится занчение объема памяти более 64Gb. 1/4 от 64 равно 16Gb. Из формулы выше Далее значение sysMem сотсавит 16Gb. Тогда формула для расчета <code>memory</code> примет вид:</p>
-<pre v-pre="true" class="prismjs line-numbers"><code class="language-">memory = greenSize * 2 + 16Gb
+<h1>Расчет размера памяти выделенной воркспейсу</h1>
+<p><code>greenSize</code> - размер зеленой зоны счетчика.</p>
+<h2>Задать значение счетчика более 24Gb</h2>
+<p>В данном случае в переменной <code>memory</code> вносится занчение объема памяти более 64Gb. 1/4 от 64 равно 16Gb. Из формулы выше Далее значение sysMem сотсавит 16Gb. Тогда формула для расчета <code>memory</code> примет вид:</p>
+<pre><code class="language-plaintext">memory = greenSize x 2 + 16Gb
 </code></pre>
 <p>Пример: Задать зеленую зону в 40Gb</p>
-<p>memory = 40 * 2 + 16 = 96</p>
+<p>memory = 40 x 2 + 16 = 96</p>
 <p>переводим полученное значение в байты</p>
-<p>memory = 96 * 1024 * 1024 * 1024</p>
+<p>memory = 96 x 1024<sup>3 </sup>= 103079215104</p>
+<h2>Задать значение счетчика менее 24Gb</h2>
+<p>В данном случае значение memory</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
