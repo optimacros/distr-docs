@@ -2,7 +2,7 @@
 title: Заметки
 description: временная страница
 published: true
-date: 2022-11-11T06:09:45.085Z
+date: 2022-11-16T04:02:05.581Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-11T05:35:40.221Z
@@ -10,4 +10,4 @@ dateCreated: 2022-11-11T05:35:40.221Z
 
 - [alt_linux9](/ru/workspace/softInstal/alt_linux9) - содержит описание установки как воркспейса так и логин цетра. Надо разделить на две части.
 - [cleaninstallation](/ru/workspace/cleaninstallation) - пофиксить ссылки на другие страницы
-- [configurarionLcWorkspace](/ru/workspace/workspace/configurarionLcWorkspace) - поправить ссылки на шаблоны
+- ~~[configurarionLcWorkspace](/ru/workspace/workspace/configurarionLcWorkspace) - поправить ссылки на шаблоны~~
