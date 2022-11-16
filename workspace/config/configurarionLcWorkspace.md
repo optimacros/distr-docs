@@ -2,7 +2,7 @@
 title: Настройка Логин Центра и воркспейса, установленных на одном сервере
 description: 
 published: true
-date: 2022-11-16T03:52:47.523Z
+date: 2022-11-16T03:56:17.637Z
 tags: install, workspace, login center
 editor: markdown
 dateCreated: 2022-11-11T06:08:10.669Z
@@ -38,15 +38,15 @@ dateCreated: 2022-11-11T06:08:10.669Z
 
 [ws80.conf.template](wsProxyTemplates/ws80template)
 
-[ws443.conf.template](wsProxyTemplates/ws443.conf.new.template)
+[ws443.conf.template](wsProxyTemplates/ws443template)
 
 для версии < 2.3.2
 
-[ws80.conf.template](wsProxyTemplates/ws80.conf.template)
+[ws80.conf.template](wsProxyTemplates/ws80_template)
 
-[ws443.conf.template](wsProxyTemplates/ws443.conf.template)
+[ws443.conf.template](wsProxyTemplates/ws443_template)
 
-[ws8081.conf.template](wsProxyTemplates/ws8081.conf.template)
+[ws8081.conf.template](wsProxyTemplates/ws8081_template)
 
 # Установка сертификатов
 Нужно добавить сертификат в `/om/login-center/data/nginx/cert/workspace1/bundle.crt` и его ключ в `/om/login-center/data/nginx/cert/workspace1/crt.key`
