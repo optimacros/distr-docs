@@ -2,7 +2,7 @@
 title: Обновление установленной версии дистрибутива Воркспейса
 description: 
 published: true
-date: 2022-11-28T08:36:48.248Z
+date: 2022-11-28T08:37:59.420Z
 tags: workspace, update
 editor: markdown
 dateCreated: 2022-11-28T08:36:48.248Z
@@ -62,7 +62,7 @@ current/install workspace --path /om/workspace1/manifest.json shutdown
 По завершению всех операций, вывод консоли будет выглядеть вот так:
 
 ![sshputty6.jpg](/maintenance/sshputty6.jpg)
-> Если вы обновляете воркспейс с версии < 2.3.2 следует внести правки в `manifest.json` [по инструкции](/ru/workspace/maintenance/update2.3.2)
+> Если вы обновляете воркспейс с версии < 2.3.2 следует внести правки в `manifest.json` [по инструкции](/ru/workspace/maintenance/update2_3_2)
 {.is-warning}
 
 > Перед запуском новой версии дистрибутива требуется сделать резервную копию каталога с установленным воркспейсом. 
