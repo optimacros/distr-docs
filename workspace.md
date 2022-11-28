@@ -2,7 +2,7 @@
 title: Workspace
 description: 
 published: true
-date: 2022-11-16T02:09:02.453Z
+date: 2022-11-28T05:12:15.233Z
 tags: workspace, index
 editor: markdown
 dateCreated: 2022-11-03T10:18:18.456Z
@@ -18,7 +18,7 @@ dateCreated: 2022-11-03T10:18:18.456Z
 - [Описание манифест файла Воркспейса](/ru/workspace/config/manifest)
 - [Подключение и настройка OLTP на воркспейсе](/ru/workspace/config/oltp)
 - [Формула расчёта размера воркспейса](/ru/workspace/config/wsSizeFormula)
-- Подробное описание цветовых тем и интерфейсов
+- [Подробное описание цветовых тем и интерфейсов](/ru/workspace/config/colorScheme)
 - Как настроить директорию для хранения бекапов моделей (только для версий 1.0.83+)
 # Обслуживание
 - Обновление уже установленной версии дистрибутива Воркспейса
