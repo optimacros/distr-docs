@@ -2,17 +2,15 @@
 title: Подробное описание цветовых тем и интерфейсов
 description: 
 published: true
-date: 2022-11-28T05:10:29.733Z
+date: 2022-11-28T05:11:50.304Z
 tags: workspace, color scheme
 editor: markdown
 dateCreated: 2022-11-28T05:10:29.733Z
 ---
 
-# Подробное описание Цветовых схем и интерфейсов:
-
 Для установок цветовых схем и интерфейсов используются флаги в файле манифеста:
 
-## Интерфейс:
+# Интерфейс:
 
 ```json
 {
@@ -72,16 +70,16 @@ dateCreated: 2022-11-28T05:10:29.733Z
  !!! Свойство с типом интерфейса должно быть указано в одном экземпляре.
  
   
-### Логотип моделей в драйвлендинге:
+## Логотип моделей в драйвлендинге:
 ![modelslogo.jpg](/modelslogo.jpg)
 
-### Фавикон на табе:
+## Фавикон на табе:
 ![tabslogo.jpg](/tabslogo.jpg)
 
-### Копирайты в подвале:
+## Копирайты в подвале:
 ![footercontent.jpg](/footercontent.jpg)
 
-## Цветовые схемы:
+# Цветовые схемы:
 
 ```
 {
@@ -138,34 +136,34 @@ color_scheme_olapsoft, color_scheme_corplan.
 Всего на момент апдейта данного раздела мануала (30.12.2021) в системе существует 10.
 Ниже представлены все схемы с названиями и скриншотами того как они выглядят в системе:
 
-### color_scheme_advexcel:
+## color_scheme_advexcel:
 ![advexcel.jpg](/advexcel.jpg)
 
-### color_scheme_optimacros
+## color_scheme_optimacros
 ![optimacros.jpg](/optimacros.jpg)
 
-### color_scheme_olapsoft
+## color_scheme_olapsoft
 ![olapsoft.jpg](/olapsoft.jpg)
 
-### color_scheme_corplan
+## color_scheme_corplan
 ![corplan.jpg](/corplan.jpg)
 
-### color_scheme_ovk
+## color_scheme_ovk
 ![ovk.jpg](/ovk.jpg)
 
-### color_scheme_tvel
+## color_scheme_tvel
 ![tvel.jpg](/tvel.jpg)
 
-### color_scheme_orange
+## color_scheme_orange
 ![orange.jpg](/orange.jpg)
 
-### color_scheme_dark
+## color_scheme_dark
 ![dark.jpg](/dark.jpg)
 
-### color_scheme_domrf
+## color_scheme_domrf
 ![domrf.jpg](/domrf.jpg)
 
-### color_scheme_fixprice
+## color_scheme_fixprice
 ![fixprice.jpg](/fixprice.jpg)
 
 
