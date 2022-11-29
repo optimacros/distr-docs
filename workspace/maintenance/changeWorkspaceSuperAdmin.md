@@ -2,7 +2,7 @@
 title: Изменение администратора Воркспейса
 description: 
 published: true
-date: 2022-11-29T06:08:31.643Z
+date: 2022-11-29T06:17:11.936Z
 tags: workspace
 editor: markdown
 dateCreated: 2022-11-29T06:08:31.643Z
@@ -15,7 +15,7 @@ dateCreated: 2022-11-29T06:08:31.643Z
 
 Для работы воркспейса Optimacros требуется назначение **СУЗ**.
 
-**СУЗ** назначается через манифест воркспейса (см. [`workspace.admin.email`](workspaceManifestInfo.md#admin))
+**СУЗ** назначается через манифест воркспейса (см. [`workspace.admin.email`](/ru/workspace/config/manifest#admin))
 
 **СУЗ** используется:
  - Фоновое бекапирование моделей
