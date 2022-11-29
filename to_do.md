@@ -2,7 +2,7 @@
 title: Заметки
 description: временная страница
 published: true
-date: 2022-11-29T05:31:12.357Z
+date: 2022-11-29T05:32:22.630Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-11T05:35:40.221Z
@@ -12,4 +12,4 @@ dateCreated: 2022-11-11T05:35:40.221Z
 - [cleaninstallation](/ru/workspace/cleaninstallation) - пофиксить ссылки на другие страницы
 - ~~[configurarionLcWorkspace](/ru/workspace/workspace/configurarionLcWorkspace) - поправить ссылки на шаблоны~~
 - [backup](/ru/workspace/maintenance/backup) проверить команды для сжатия бэкапа
-- 
+- [add_workspace](/ru/workspace/maintenance/add_workspace) - сократить страницу возможно? См. коментарий
