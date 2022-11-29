@@ -2,7 +2,7 @@
 title: Workspace
 description: 
 published: true
-date: 2022-11-28T08:42:48.822Z
+date: 2022-11-29T06:29:37.488Z
 tags: workspace, index
 editor: markdown
 dateCreated: 2022-11-03T10:18:18.456Z
@@ -22,11 +22,11 @@ dateCreated: 2022-11-03T10:18:18.456Z
 - [Как настроить директорию для хранения бекапов моделей (только для версий 1.0.83+)](/ru/workspace/config/customBackupsDirectory)
 # Обслуживание
 - [Обновление уже установленной версии дистрибутива Воркспейса](/ru/workspace/maintenance/update)
-- Резервное копирование Воркспейса
-- Добавление нового Воркспейса
-- Изменение адреса/имени Воркспейса
-- Изменение администратора Воркспейса (сервисная учетная запись)
-- Как изменить подсеть LXC   
+- [Резервное копирование Воркспейса](/ru/workspace/maintenance/backup)
+- [Добавление нового Воркспейса](/ru/workspace/maintenance/add_workspace)
+- [Изменение адреса/имени Воркспейса](/ru/workspace/maintenance/changeworkspacename)
+- [Изменение администратора Воркспейса (сервисная учетная запись)](/ru/workspace/maintenance/changeWorkspaceSuperAdmin)
+- [Как изменить подсеть LXC](/ru/workspace/maintenance/lxcChangeAddressInfo)
 - Как изменить директорию с данными для Docker и LXC
 - Перезагрузка воркспейса
 - Изменение SSL сертификата Воркспейса
