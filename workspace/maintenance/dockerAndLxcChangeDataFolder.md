@@ -2,7 +2,7 @@
 title: Как изменить директорию с данными для Docker и LXC
 description: 
 published: true
-date: 2022-12-26T20:21:38.816Z
+date: 2022-12-26T20:22:30.365Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-26T12:36:17.931Z
@@ -59,7 +59,7 @@ nano /etc/docker/daemon.json
 ! Возможно файл уже существует и содержит JSON, в таком случае добавляем в существующий JSON, параметр `data-root` с значением новой директории докер
 ```
 {
-        "data-root": "/opt1/docker"
+	"data-root": "/opt1/docker"
 }
 ```
 
