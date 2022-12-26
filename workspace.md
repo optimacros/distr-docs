@@ -2,7 +2,7 @@
 title: Workspace
 description: 
 published: true
-date: 2022-11-29T06:29:37.488Z
+date: 2022-12-26T12:47:23.230Z
 tags: workspace, index
 editor: markdown
 dateCreated: 2022-11-03T10:18:18.456Z
@@ -27,7 +27,8 @@ dateCreated: 2022-11-03T10:18:18.456Z
 - [Изменение адреса/имени Воркспейса](/ru/workspace/maintenance/changeworkspacename)
 - [Изменение администратора Воркспейса (сервисная учетная запись)](/ru/workspace/maintenance/changeWorkspaceSuperAdmin)
 - [Как изменить подсеть LXC](/ru/workspace/maintenance/lxcChangeAddressInfo)
-- Как изменить директорию с данными для Docker и LXC
+- [Как изменить директорию с данными для Docker и LXC]
+(/ru/workspace/maintenance/dockerAndLxcChangeDataFolder)
 - Перезагрузка воркспейса
 - Изменение SSL сертификата Воркспейса
 - Принципы работы DNS в LXC контейнере
