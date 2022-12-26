@@ -2,7 +2,7 @@
 title: Как изменить директорию с данными для Docker и LXC
 description: 
 published: true
-date: 2022-12-26T13:04:57.652Z
+date: 2022-12-26T13:05:41.543Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-26T12:36:17.931Z
