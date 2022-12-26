@@ -1,8 +1,8 @@
 ---
-title: Workspace
+title: Воркспейс
 description: 
 published: true
-date: 2022-12-26T12:39:18.270Z
+date: 2022-12-26T12:41:24.341Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-26T12:36:17.931Z
