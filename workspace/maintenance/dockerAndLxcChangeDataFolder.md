@@ -2,7 +2,7 @@
 title: Как изменить директорию с данными для Docker и LXC
 description: 
 published: true
-date: 2022-12-26T15:51:41.799Z
+date: 2022-12-26T20:19:34.400Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-26T12:36:17.931Z
@@ -81,6 +81,7 @@ docker info | grep Root
 
 Если все нормально, можно удалить архивную папку
 
+:warning: Внимание, неправильное использование команды `rm -rf` может привести в повреждению Операционной Системы.
 ```
 rm -rf /var/lib/docker.old
 ```
