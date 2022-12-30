@@ -2,7 +2,7 @@
 title: Чистая установка Логин Центра на клиентский сервер
 description: Чистая установка Логин Центра на клиентский сервер
 published: true
-date: 2022-12-30T18:16:31.674Z
+date: 2022-12-30T18:41:01.920Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T21:31:39.342Z
@@ -59,10 +59,12 @@ https://docs.docker.com/engine/install/#server
   дефолтными настройками подключения, которые нам предстоит настроить вручную, далее нынешняя версия инсталлятора, выдаёт 
   ошибку со следующим содержимым:
  
-![errorinstaller.png](/login-center/errorinstaller.png)Которая нам говорит о том, что по заданным путям отсутствуют файлы сертификатов. Затем мы переходим в директорию, где 
+![errorinstaller.png](/login-center/errorinstaller.png)
+
+Которая нам говорит о том, что по заданным путям отсутствуют файлы сертификатов. Затем мы переходим в директорию, где 
 лежит Логин Центр `cd /om/login-center`
 
-![](./pictures/goToDirectoryAfterError.png)
+![gotodirectoryaftererror.png](/login-center/gotodirectoryaftererror.png)
 
 Затем мы смотрим содержимое файла .env с помощью команды `cat .env` и видим что там есть только одно свойство VERSION.
 
@@ -70,7 +72,7 @@ https://docs.docker.com/engine/install/#server
 редактировать .env файл, в соответствии с нашими требованиями(открываем редактирование с помощью команды `nano .env`). В частности установить пароли к аккаунту админа, пароли к базе 
 данных и информацию о web части. 
 
-![](./pictures/settingsEnv.png)
+![settingsenv.png](/login-center/settingsenv.png)
 
 ```
 VERSION=1.1.9
@@ -103,13 +105,13 @@ WORKSPACE_HOSTNAME=workspace1.optimacros.com
 Затем мы переходим снова в папку с инсталлятором Логин Центра с помощью команды: `cd /home/user/` и запускаем инсталлятор 
 `./login-center-версия.sh` 
 
-Во время установки на вопрос, нужно ли перезаписывать env файл конечно же отвечаем нет. Ожидаем процесс установки.
+:warning:Во время установки на вопрос, нужно ли перезаписывать env файл, конечно же отвечаем _НЕТ_. Ожидаем процесс установки.
 
-![](./pictures/installationLC.png)
+![installationlc.png](/login-center/installationlc.png)
 
 Затем увидим вот такую консоль, это значит что Логин Центр успешно установлен.
 
-![](./pictures/installComplete.png)
+![installcomplete.png](/login-center/installcomplete.png)
 
 Можно проверять результат установки в браузере введя имя хоста нашего логин центра.
 
