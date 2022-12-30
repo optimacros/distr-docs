@@ -2,7 +2,7 @@
 title: Чистая установка Логин Центра на клиентский сервер
 description: Чистая установка Логин Центра на клиентский сервер
 published: true
-date: 2022-12-30T18:43:49.381Z
+date: 2022-12-30T18:47:55.685Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T21:31:39.342Z
@@ -76,13 +76,13 @@ https://docs.docker.com/engine/install/#server
 
 ```
 VERSION=1.1.9
-HOSTNAME=profile.optimacros.com
+HOSTNAME=profile.company.ru
 DB_USERNAME=login-center
 DB_PASSWORD=
-ADMIN_USERNAME=admin@optimacros.com
+ADMIN_USERNAME=admin@company.ru
 ADMIN_PASSWORD=
 WORKSPACE_NAME=workspace1
-WORKSPACE_HOSTNAME=workspace1.optimacros.com
+WORKSPACE_HOSTNAME=workspace1.company.ru
 ```
 
 Более подробное описание полей можно посмотреть тут:
