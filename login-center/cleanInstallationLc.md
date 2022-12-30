@@ -2,7 +2,7 @@
 title: Чистая установка Логин Центра на клиентский сервер
 description: Чистая установка Логин Центра на клиентский сервер
 published: true
-date: 2022-12-30T18:41:01.920Z
+date: 2022-12-30T18:43:49.381Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T21:31:39.342Z
@@ -115,6 +115,6 @@ WORKSPACE_HOSTNAME=workspace1.optimacros.com
 
 Можно проверять результат установки в браузере введя имя хоста нашего логин центра.
 
-[Вернуться к содержанию <](contents.md)
+[К содержанию Login Center <<](/ru/login-center)
 
-[Вернуться к оглавлению <<](index.md)
+[В Начало <<](/ru/home)
