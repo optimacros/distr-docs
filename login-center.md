@@ -2,7 +2,7 @@
 title: Логин Центр
 description: 
 published: true
-date: 2022-11-10T14:39:40.540Z
+date: 2022-12-30T18:54:59.689Z
 tags: login center
 editor: markdown
 dateCreated: 2022-11-03T10:05:46.625Z
@@ -11,7 +11,7 @@ dateCreated: 2022-11-03T10:05:46.625Z
 # Установка
 - [Требования к серверу для установки](/ru/login-center/requirments)
 - [Предварительная установка пакетов](/ru/login-center/installPackages)
-- Установка Логин Центра
+- [Установка Логин Центра](/ru/login-center/cleanInstallationLc)
 
 # Настройка
 - Настройка Логин Центра и Воркспейса, установленных на одном сервере
