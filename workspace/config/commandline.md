@@ -2,42 +2,40 @@
 title: Параметры коммандной строки
 description: 
 published: true
-date: 2023-02-14T09:40:54.718Z
+date: 2023-02-14T10:19:10.778Z
 tags: workspace, command line
 editor: markdown
 dateCreated: 2023-02-14T09:40:54.718Z
 ---
 
-# Команды
+# workspace
 
-## workspace
+## up
 
-### up
-
-Запуск воркспейса
+Запуск воркспейса. При использовании инсталятора версии отличной от версии установленного воркспейса производится обновление воркспейса. 
 
 **Example:**
 ```bash
-./current/install workspace -- path /om/workspace1/manifest.json up
+./current/install workspace --path /om/workspace1/manifest.json up
 ```
 
 
-### shutdown
+## shutdown
 
-Остановка воркспейса
+Остановка воркспейса.
 
 **Example:**
 ```bash
-./current/install workspace -- path /om/workspace1/manifest.json shutdown
+./current/install workspace --path /om/workspace1/manifest.json shutdown
 ```
 
-### info
+## info
 
 Отобразить информацию о состоянии воркспейса.
 
 **Example:**
 ```bash
-./current/install workspace -- path /om/workspace1/manifest.json info
+./current/install workspace --path /om/workspace1/manifest.json info
 ```
 
 **Example output**
@@ -71,36 +69,93 @@ dateCreated: 2023-02-14T09:40:54.718Z
 >```
 {.is-info}
 
-### status
+## status
 
 Текущее состояние воркспейса
 
 **Example:**
 ```bash
-./current/install workspace -- path /om/workspace1/manifest.json status
+./current/install workspace --path /om/workspace1/manifest.json status
 ```
 
 Варианты состояния:
 - **RUNNING** - воркспейс запущен
 
-### maintenance
+## maintenance
+
+Выводит информацию и управляет режимом обслуживания воркспейса. В данном режиме отключается возможность работы с воркспейсом и доступен только раздел администратора воркспейса. 
+Без параметров комманда выводит текущее состояние данного режима в виде логической переменной `true` или `false`
+
+**Example:**
+```bash
+./current/install workspace --path /om/workspace1/manifest.json maintenance
+```
+
+Для управления данным режимом есть два параметра. Для его включения и выключения, соответственно.
+
+- **--enable**    Enable maintenance mode
+- **--disable**   Disable maintenance mode 
+
+## ssl-update
+
+Данная команда вызывает обновление воркспейсом информации об используемых ssl сертификатах без его полной остановки и последующего запуска.
+Для практического применения:
+- Смотрим указанные пути в файле `manifest.json` до файла ssl сертификата и закрытого ключа
+- Заменяем файлы при необходимости обновления в заданном каталоге
+- Вызываем комманду для обновления информации запущенным воркспейсом
+
+> Данная команда используется только для обновления информации о сертификатах шифрования внутри lxc контейнера. В случае совместной установки воркспейса и логин центра, сертификаты обновляются через перезапуск логин центра. 
+{.is-warning}
+
+**Example:**
+```bash
+./current/install workspace --path /om/workspace1/manifest.json ssl-update
+```
+
+## version
+
+Информация о версии запущенного дистрибутива. 
+
+**Example:**
+```bash
+./current/install workspace --path /om/workspace1/manifest.json version
+```
+
+# help
+
+Вывод справки по командам и допустимым параметрам
+
+**Examples:**
+```bash
+./current/install help
+./current/install help workspace
+./current/install help up
+```
+
+# Опции
+
+## --path
+
+Обязательный параметр для комманды `workspace` В параметре указывается абсолютный путь до файла `manifest.json`
+
+## --version
+
+Версия дистрибутива установщика. Важно не путать этот параметр с командой `version` используемой совместно с командой `workspace`
+
+## --verbose
+
+Подробный режим вывода для диагностики в случае ошибок
+
+
+## --force
+
+Форсировать применение комманды. Преимущественно для ускорения остановки воркспейса командой `shutdown`
+
+
+## --help 
+
+Справка по коммандам используемым совместно с коммандой `workspace`
 
 
 
-
-
-
-
-
-# Команды управления состоянием воркспейса
-
-## Options
-
-### -v,--version         
-
-Вывести версию инсталятора.
-
-### -h, --help
-
-Отобразить справку
 
