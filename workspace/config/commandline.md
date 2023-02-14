@@ -1,8 +1,8 @@
 ---
-title: Параметры коммандной строки
+title: Параметры командной строки
 description: 
 published: true
-date: 2023-02-14T10:48:40.614Z
+date: 2023-02-14T10:52:29.696Z
 tags: workspace, command line
 editor: markdown
 dateCreated: 2023-02-14T09:40:54.718Z
