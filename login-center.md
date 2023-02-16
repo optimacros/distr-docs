@@ -2,7 +2,7 @@
 title: Логин Центр
 description: 
 published: true
-date: 2023-02-16T21:29:17.673Z
+date: 2023-02-16T21:35:09.702Z
 tags: login center
 editor: markdown
 dateCreated: 2022-11-03T10:05:46.625Z
@@ -23,6 +23,6 @@ dateCreated: 2022-11-03T10:05:46.625Z
 - [Изменению пароля mongodb для Логин Центра](/login-center/changeMongoPass)
 - [Изменение параметров Логин Центра](/login-center/changeLCParams)
 - [Изменение SSL сертификата Логин Центра](/login-center/updateLoginCenterSsl)
-- Изменение подсети Docker Логин Центра
+- [Изменение подсети Docker Логин Центра](/login-center/changeDockerLcNetwork)
 # Удаление
  - Удаление Логин Центра
