@@ -2,7 +2,7 @@
 title: Удаление Логин Центра
 description: Удаление Логин Центра
 published: true
-date: 2023-02-16T21:39:47.821Z
+date: 2023-02-16T21:40:08.597Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-16T21:39:47.821Z
@@ -48,8 +48,7 @@ cd /om/login-center
 ```
 rm -rf /om/login-center
 ```
-на этом удаление 
- Логин центра завершено
+на этом удаление Логин центра завершено
 
 [Вернуться к содержанию <](/login-center)
 
