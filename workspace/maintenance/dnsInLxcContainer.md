@@ -2,7 +2,7 @@
 title: Принципы работы DNS в LXC контейнере
 description: Принципы работы DNS в LXC контейнере
 published: true
-date: 2023-02-20T17:34:41.051Z
+date: 2023-02-20T17:52:43.308Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-20T17:32:25.116Z
@@ -17,7 +17,7 @@ dateCreated: 2023-02-20T17:32:25.116Z
 
 Сам сервис lxc-net основан на утилите dnsmasq
 
-![lxcnetstatus.jpg](/login-center/dns_in_lxc_container/lxcnetstatus.jpg)
+![lxcnetstatus.jpg](/workspace/dns_in_lxc_container/lxcnetstatus.jpg)
  
 Как мы видим сервис поднял процесс приложения dnsmasq с настройками
  
