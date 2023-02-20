@@ -2,7 +2,7 @@
 title: Чистая установка Application Manager (AM) на клиентский сервер
 description: Чистая установка Application Manager (AM) на клиентский сервер
 published: true
-date: 2023-02-20T18:29:05.839Z
+date: 2023-02-20T18:32:48.992Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-20T18:29:05.839Z
@@ -152,6 +152,6 @@ OAUTH_LOGOUT_PATH=signout
 
 Можно проверять результат установки в браузере введя имя хоста нашего AM.
 
-[Вернуться к содержанию <](/app_manager)
+[Вернуться к содержанию <](/app_manager/home)
 
 [Вернуться к оглавлению <<](/home)
