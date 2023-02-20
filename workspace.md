@@ -2,14 +2,14 @@
 title: Workspace
 description: 
 published: true
-date: 2023-02-20T17:35:16.486Z
+date: 2023-02-20T17:42:50.923Z
 tags: workspace, index
 editor: markdown
 dateCreated: 2022-11-03T10:18:18.456Z
 ---
 
 # Установка
-- Требования к серверу для установки 
+- [Требования к серверу для установки](/ru/login-center/requirments)
 - [Предварительные установки ПО необходимые для работы Воркспейса](/ru/workspace/softInstal)
 - [Чистая установка дистрибутива Воркспейса](/ru/workspace/cleaninstallation)
 # Настройка
