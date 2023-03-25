@@ -1,8 +1,8 @@
 ---
-title: DOcument Printer
+title: Document Printer
 description: 
 published: true
-date: 2023-02-20T18:07:52.706Z
+date: 2023-03-25T02:33:50.483Z
 tags: vba agent
 editor: markdown
 dateCreated: 2022-11-03T10:27:55.813Z
