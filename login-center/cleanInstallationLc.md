@@ -2,7 +2,7 @@
 title: Установка Логин Центра на клиентский сервер
 description: Установка Логин Центра на клиентский сервер
 published: true
-date: 2023-04-18T03:47:47.789Z
+date: 2023-04-18T04:13:51.434Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T21:31:39.342Z
@@ -105,7 +105,7 @@ WORKSPACE_HOSTNAME=ws-om.company.ru
 ```
 
 Более подробное описание полей можно посмотреть тут:
-[ссылка на описание полей .env](/ru/login-center/login-center/envDescription)
+[ссылка на описание полей .env](/ru/login-center/envDescription)
 
 
 Для пароля базы данных (DB_PASSWORD) воспользуемся любым генератором паролей в интернете (http://www.onlinepasswordgenerator.ru/), сгенерировав надёжный пароль длиной более 20 символов (ОЧЕНЬ важно: пароль не должен содержать символов `@:;/\%` это приведёт к багу установки). 
