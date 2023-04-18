@@ -2,7 +2,7 @@
 title: Логин Центр
 description: 
 published: true
-date: 2023-02-16T21:43:17.435Z
+date: 2023-04-18T03:20:10.628Z
 tags: login center
 editor: markdown
 dateCreated: 2022-11-03T10:05:46.625Z
@@ -15,7 +15,7 @@ dateCreated: 2022-11-03T10:05:46.625Z
 
 # Настройка
 - [Настройка Логин Центра и Воркспейса, установленных на одном сервере](/ru/workspace/config/configurarionLcWorkspace)
-
+- [Описание свойств .env файла](/ru/login-center/login-center/envDescription)
 # Обслуживание
 - [Обновление уже установленной версии дистрибутива Логин Центра](/ru/login-center/upgrade)
 - [Резервное копирование Логин Центра](/ru/login-center/reservLC)
