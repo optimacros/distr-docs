@@ -2,7 +2,7 @@
 title: Установка Логин Центра на клиентский сервер
 description: Установка Логин Центра на клиентский сервер
 published: true
-date: 2023-01-10T16:44:29.547Z
+date: 2023-04-18T03:22:31.183Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-29T21:31:39.342Z
@@ -108,7 +108,8 @@ WORKSPACE_HOSTNAME=ws-om.company.ru
 ```
 
 Более подробное описание полей можно посмотреть тут:
-<a href="https://github.com/optimacros/distribution_documentation/blob/main/envDescription.md" target="_blank">ссылка на описание полей .env</a>
+[ссылка на описание полей .env](/ru/login-center/login-center/envDescription)
+
 
 Для пароля базы данных (DB_PASSWORD) воспользуемся любым генератором паролей в интернете (http://www.onlinepasswordgenerator.ru/), сгенерировав надёжный пароль длиной более 
 20 символов (ОЧЕНЬ важно: пароль не должен содержать символов `@:;/\%` это приведёт к багу установки). 
@@ -145,7 +146,3 @@ cd /home/user/
 ![installcomplete.png](/login-center/installcomplete.png)
 
 Можно проверять результат установки в браузере введя имя хоста нашего логин центра.
-
-[К содержанию Login Center <<](/ru/login-center)
-
-[В Начало <<](/ru/home)
