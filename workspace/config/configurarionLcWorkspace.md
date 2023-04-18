@@ -2,7 +2,7 @@
 title: Настройка Логин Центра и воркспейса, установленных на одном сервере
 description: 
 published: true
-date: 2022-11-16T03:58:59.213Z
+date: 2023-04-18T04:56:03.107Z
 tags: install, workspace, login center
 editor: markdown
 dateCreated: 2022-11-11T06:08:10.669Z
@@ -14,7 +14,7 @@ dateCreated: 2022-11-11T06:08:10.669Z
 
 Сначала устанавливаем Логин Центр и воркспейс, по соответствующим инструкциям в Содержании.
 
-- [Чистая установка Логин Центра](/ru/login-center/cleaninstall)
+- [Чистая установка Логин Центра](/ru/login-center/cleanInstallationLc)
 - [Чистая установка дистрибутива воркспейса Optimacros](/ru/workspace/cleaninstallation)
 {.links-list}
  
@@ -24,9 +24,7 @@ dateCreated: 2022-11-11T06:08:10.669Z
 
 После того как мы установили Логин Центра и Воркспейс.
 
-Для начала нам необходимо в Логин Центре в файлике под названием .env, добавить переменную `WORKSPACE_PROXY_URL` и 
-указать ей значение: `http://10.0.3.15` (Это тот самый container.ip который мы указывали в файлике manifest.json при 
-его заполнении)
+Для начала нам необходимо в Логин Центре в файлике под названием .env, добавить переменную `WORKSPACE_PROXY_URL` и указать ей значение: `http://10.0.3.15` (Это тот самый container.ip который мы указывали в файлике manifest.json при его заполнении)
 ![addedvariable.png](/workspace/addedvariable.png)
 
 
@@ -62,5 +60,4 @@ dateCreated: 2022-11-11T06:08:10.669Z
 ./om start
 ```
 
-[Настройка DNS Воркспейса](changeWorkspaceDns.md)
-
+[Настройка DNS Воркспейса](/ru/workspace/config/changeWorkspaceDNS)
