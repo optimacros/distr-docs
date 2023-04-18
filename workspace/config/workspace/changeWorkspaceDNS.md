@@ -2,7 +2,7 @@
 title: Настройка DNS Воркспейса
 description: 
 published: true
-date: 2023-04-18T04:53:55.196Z
+date: 2023-04-18T04:55:27.169Z
 tags: workspace, dns
 editor: markdown
 dateCreated: 2023-04-18T04:53:55.196Z
