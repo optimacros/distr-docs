@@ -2,7 +2,7 @@
 title: Изменение пароля mongodb для Логин Центра
 description: Изменение пароля mongodb для Логин Центра
 published: true
-date: 2023-02-16T16:56:52.385Z
+date: 2023-04-18T05:12:24.822Z
 tags: mongo, mongo password
 editor: markdown
 dateCreated: 2023-02-16T16:56:52.385Z
@@ -79,7 +79,3 @@ nano .env
 ![controlcheck.jpg](/login-center/change_mongo_pass/controlcheck.jpg)
 
 На этом процедура изменения пароля mongodb для Логин Центра завершена.
-
-[Вернуться к содержанию <](/login-center)
-
-[Вернуться к оглавлению <<](/home)
