@@ -2,7 +2,7 @@
 title: Workspace
 description: 
 published: true
-date: 2023-04-18T04:57:05.766Z
+date: 2023-04-18T04:57:26.198Z
 tags: workspace, index
 editor: markdown
 dateCreated: 2022-11-03T10:18:18.456Z
@@ -19,7 +19,7 @@ dateCreated: 2022-11-03T10:18:18.456Z
 - [Подключение и настройка OLTP на воркспейсе](/ru/workspace/config/oltp)
 - [Формула расчёта размера воркспейса](/ru/workspace/config/wsSizeFormula)
 - [Подробное описание цветовых тем и интерфейсов](/ru/workspace/config/colorScheme)
-- [Настройка DNS Воркспейса](/ru/workspace/config/workspace/changeWorkspaceDNS) 
+- [Настройка DNS Воркспейса](/ru/workspace/config/changeWorkspaceDNS) 
 - [Как настроить директорию для хранения бекапов моделей (только для версий 1.0.83+)](/ru/workspace/config/customBackupsDirectory)
 # Обслуживание
 - [Обновление уже установленной версии дистрибутива Воркспейса](/ru/workspace/maintenance/update)
