@@ -2,7 +2,7 @@
 title: Изменение SSL сертификата Логин Центра
 description: Изменение SSL сертификата Логин Центра
 published: true
-date: 2023-02-16T21:41:40.301Z
+date: 2023-04-19T04:45:03.863Z
 tags: 
 editor: markdown
 dateCreated: 2023-02-16T21:28:36.087Z
@@ -50,15 +50,11 @@ Error response from daemon: configured logging driver does not support reading
 Файл в формате `yml`, находим секцию `nginx` и меняем в под-секции `logging`, значение свойства `driver` на `local`
 
 Сохраняем файл и запускаем команду для перезагрузки веб-сервера:
-```
+```bash
 docker restart optimacros_nginx
 ```
 
 Читаем последние логи и анализируем проблему:
-```
+```bash
 docker logs -f optimacros_nginx
 ```
-
-[Вернуться к содержанию <](/login-center)
-
-[Вернуться к оглавлению <<](/home)
