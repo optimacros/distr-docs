@@ -2,7 +2,7 @@
 title: Изменение SSL сертификата Воркспейса
 description: 
 published: true
-date: 2023-01-04T11:22:11.347Z
+date: 2023-04-19T04:12:03.683Z
 tags: 
 editor: markdown
 dateCreated: 2023-01-04T11:22:11.347Z
@@ -29,8 +29,7 @@ SSL Сертификат в формате `x509` находится в дире
 
 Посмотреть путь к сертификату (`x509`) и его ключу в манифесте воркспейса.
 
-Файл манифеста воркспейса находится по пути `<WS_DIR>/manifest.json` ([Описание манифест файла воркспейса Optimacros](workspaceManifestInfo.md))
-
+Файл манифеста воркспейса находится по пути `<WS_DIR>/manifest.json` ([Описание манифест файла воркспейса Optimacros](/ru/workspace/config/manifest))
 Файл в формате `json`, находим секцию `workspace.web.ssl` и по указанным путям для `cert` и `key` меняем файлы сертификата и ключа
 
-[Далее перезагружаем воркспейс](restartWorkspace.md)
+[Далее перезагружаем воркспейс](/ru/workspace/maintenance/restartWorkspace)
