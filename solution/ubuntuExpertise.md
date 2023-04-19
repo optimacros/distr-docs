@@ -2,7 +2,7 @@
 title: Особенности установки на чистый Ubuntu 18.04
 description: 
 published: true
-date: 2023-04-19T06:57:19.983Z
+date: 2023-04-19T06:57:56.728Z
 tags: solution
 editor: markdown
 dateCreated: 2023-04-19T06:57:19.983Z
@@ -21,7 +21,7 @@ dpkg -l | grep apparmor
 
 Ответ будет примерно таким:
 
-```
+```bash
 root@host:~# dpkg -l | grep apparmor
 ii  apparmor            2.12-4ubuntu5.1        amd64        user-space parser utility for AppArmor
 ii  libapparmor1:amd64  2.12-4ubuntu5.1        amd64        changehat AppArmor library
