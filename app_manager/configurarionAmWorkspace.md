@@ -2,13 +2,15 @@
 title: Совместная установка Application Manager и Workspace на один сервер
 description: 
 published: true
-date: 2023-04-26T12:49:48.573Z
+date: 2023-04-26T12:56:48.206Z
 tags: workspace, appmanager, application manager, dual install
 editor: markdown
 dateCreated: 2023-04-26T11:19:15.418Z
 ---
 
 # Совместная установка Application Manager и Workspace на один сервер
+> На текущий момент данный способ гарантированно будет работать до следующего обновления application manager'а. Если при обновлении утсановщик полностью заменит `10.docker-compose-nginx.yml` его потребуется поправить повторно и проверить каталоги с шаблонами и `.env` файл
+{.is-warning}
 
 ## Предварительная подготовка к настройке совместной работы
 
@@ -31,11 +33,9 @@ Docker ставим по аналогии с логин центром по эт
 ### Настройка Reverse Proxy для Воркспейса.
 
 Нам необходимо залить на сервер шаблоны nginx в папку внутри каталога application manager'а `data/nginx/templates`
-
-[ws80.conf.template](wsProxyTemplates/ws80template)
-
-[ws443.conf.template](wsProxyTemplates/ws443template)
-
+- [ws80.conf.template](/ru/workspace/config/configurarionLcWorkspace/wsProxyTemplates/ws80template)
+- [ws443.conf.template](/ru/workspace/config/configurarionLcWorkspace/wsProxyTemplates/ws443template)
+{.links-list}
 ### Установка сертификатов
 Нужно добавить сертификат в `data/nginx/cert/workspace1/bundle.crt` и его ключ в `data/nginx/cert/workspace1/crt.key`
 
