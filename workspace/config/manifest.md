@@ -2,7 +2,7 @@
 title: Описание манифест файла Воркспейса
 description: 
 published: true
-date: 2022-11-29T06:14:53.475Z
+date: 2023-05-16T03:22:55.657Z
 tags: workspace, manifest
 editor: markdown
 dateCreated: 2022-11-14T09:07:59.015Z
@@ -713,13 +713,15 @@ use ntlmv2 = yes
 
 `object`
 
+#### mysql
+
 `oltp.mysql.memory` - `integer` объем памяти, используемый для кэширования. Чем больше выделено памяти на кэширование - тем больше производительность работы с базой. Под капотом устанавливает значение для innodb_buffer_pool_size.
 
 `oltp.mysql.web.status` - `required|boolean` позволяет включить или выключить доступ к базе через phpmyadmin.
 
 `oltp.mysql.web.captcha` - `object` позволяет настроить google recaptcha капчу при входе в phpmyadmin.
 
-```
+```json
 {
     ...
     "oltp": {
@@ -744,6 +746,59 @@ use ntlmv2 = yes
     ...
 }
 ```
+https://workspace.domain/oltp/mysql/ - строка доступа из браузера
+
+#### PostgreSQL
+
+доступно с версий >= 2.15.0
+
+`oltp.postgresql.service.status` - `required|boolean` позволяет включить или выключить сервис postgresql по умолчанию при загрузке воркспейса.
+
+`oltp.postgresql.web.status` - `required|boolean` позволяет включить или выключить доступ к базе через phppgadmin.
+
+```json
+{
+    ...
+    "oltp": {
+        "postgresql": {
+            "service": {
+                "status": true
+            },
+            "web": {
+                "status": true
+            },
+            "userPasswords": {
+                "admin": "ToyHTC4AQft2V0HKG",
+                "reader": "NTiLfmu0Xah5qGw9",
+                "writer": "uW7FmbKm8QKpGwgt"
+            }
+        }
+    }
+    ...
+}
+```
+https://workspace.domain/oltp/pgsql/ - строка доступа из браузера
+
+#### ClickHouse
+
+```json
+{
+    ...
+    "clickhouse": {
+        "service": {
+            "status": true
+        },
+        "web": {
+            "status": true
+        },
+            "userPasswords": {
+                "default": "vq0xnnmzJittJsday1"
+            }
+        }
+    ...
+}  
+```
+
 
 ### Mongod
 
