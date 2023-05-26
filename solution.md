@@ -2,7 +2,7 @@
 title: Решения проблем
 description: Экспертиза проблем возникающих в ходе установок дистрибутивов либо их обновления на клиентских серверах.
 published: true
-date: 2023-04-19T07:27:14.384Z
+date: 2023-05-26T10:07:32.798Z
 tags: solution
 editor: markdown
 dateCreated: 2023-04-19T05:48:42.814Z
@@ -20,4 +20,5 @@ dateCreated: 2023-04-19T05:48:42.814Z
 - [Экспертиза по добавлению кириллического URL](/ru/solution/cyrillicUrl)
 - [Экспертиза по обновлению версии ядра linux на CentOS](/ru/solution/updateCoreCentOS)
 - [Экспертиза по проблеме с нехваткой места на диске с установленным воркспейсом](/ru/solution/noSpaceProblem)
+- [Восстановление структуры базы данных из резервной копии](/ru/solution/restore_DB_From_Backup)
 {.links-list}
