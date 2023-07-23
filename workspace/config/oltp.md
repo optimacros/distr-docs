@@ -2,7 +2,7 @@
 title: Подключение и настройка OLTP на воркспейсе 
 description: 
 published: true
-date: 2022-11-16T04:42:26.366Z
+date: 2023-07-23T11:23:59.110Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-16T04:42:26.366Z
@@ -25,7 +25,7 @@ dateCreated: 2022-11-16T04:42:26.366Z
 
 ```json
 		...
-		"oltp": {
+    "oltp": {
       "mysql": {
         "userPasswords": {
           "root": "ABGx6z0AQ8GUBGDgfTo2",
