@@ -2,7 +2,7 @@
 title: Описание манифест файла Воркспейса
 description: 
 published: true
-date: 2023-06-21T08:27:01.946Z
+date: 2023-07-25T08:59:16.725Z
 tags: workspace, manifest
 editor: markdown
 dateCreated: 2022-11-14T09:07:59.015Z
@@ -893,7 +893,9 @@ https://workspace.domain/oltp/pgsql/ - строка доступа из брау
 `nginx.allowRealIpFrom` - `string` http://nginx.org/ru/docs/http/ngx_http_realip_module.html#real_ip_header
 
 `nginx.wsExternalMode` - `boolean`, не обязательное. определяет режим работы websockets. `true` - вебсокет будет работать на портах 8080/8081(в зависимости от ssl настроек), ws entry point: `/`. `false` - работа на портах 80/443, entry point - `/ws`. В случае отсутствия поля - принимается как `false` и вебсокеты работают на портах 80 или 443
-```
+
+`nginx.clientMaxBodySize` - `string` http://nginx.org/en/docs/http/ngx_http_core_module.html#client_max_body_size Значение по умолчанию - "2G"
+```nginx
 {
     ...
     "nginx": {
@@ -902,10 +904,13 @@ https://workspace.domain/oltp/pgsql/ - строка доступа из брау
             "255.255.255.255",
             "0.0.0.0"
         ],
-        "wsExternalMode": false
+        "wsExternalMode": false,
+        "clientMaxBodySize": "5G"
     }  
     ...  
 }
+
+
 ```
 
 ### Server Status
