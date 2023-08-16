@@ -1,8 +1,8 @@
 ---
-title: Как изменить директорию с данными для Docker и LXC
+title: Как изменить директорию с данными для Docker и LXC, Vagrant
 description: 
 published: true
-date: 2023-08-16T21:46:46.271Z
+date: 2023-08-16T21:47:03.094Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-26T12:36:17.931Z
