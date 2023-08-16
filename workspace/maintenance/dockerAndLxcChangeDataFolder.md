@@ -2,7 +2,7 @@
 title: Как изменить директорию с данными для Docker и LXC
 description: 
 published: true
-date: 2023-08-10T15:38:15.885Z
+date: 2023-08-16T21:46:46.271Z
 tags: 
 editor: markdown
 dateCreated: 2022-12-26T12:36:17.931Z
@@ -236,7 +236,7 @@ mv /root/.vagrant.d /om/.vagrant.d
 ```
 После этого необходимо выполнить команду по изменению переменной окружения
 ```
-export VAGRANT_HOME=/another/disk/partition/.vagrant.d
+export VAGRANT_HOME=/om/.vagrant.d
 ```
 После выполнения данной команды, инсталлятор Optimacros воркспейса будет взаимодействовать с каталогом по новому пути, но данная настройка при входе в новую сессию терминала linux будет сброшена.
 
