@@ -2,7 +2,7 @@
 title: Предварительные установки ПО необходимые для работы логин центра
 description: 
 published: true
-date: 2023-03-27T13:41:08.975Z
+date: 2023-08-17T07:08:33.678Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-09T04:56:33.478Z
@@ -29,3 +29,26 @@ dateCreated: 2022-11-09T04:56:33.478Z
 	subscription-manager repos --enable=rhel-7-server-extras-rpms
   
 После этого установка по иснтрукции https://docs.docker.com/engine/install/rhel/ 
+
+## Oracle Linux 8
+```
+#!/bin/bash
+
+Инструкция тестировалась на Oracle Linux Server 8.8
+Требует запуск под root пользователем
+Версия: 1
+set -ex
+
+cd /tmp
+
+yum install -y yum-utils
+
+yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+
+yum remove -y runc
+
+yum install -y docker-ce
+
+systemctl enable docker.service
+systemctl start docker.service  
+```
