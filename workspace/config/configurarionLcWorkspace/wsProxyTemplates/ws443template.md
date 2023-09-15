@@ -1,14 +1,14 @@
 ---
-title: ws443.conf.new.template
+title: new ws443.conf.template
 description: 
 published: true
-date: 2022-11-16T03:57:19.050Z
+date: 2023-09-15T10:43:20.889Z
 tags: 
 editor: markdown
 dateCreated: 2022-11-16T03:57:19.050Z
 ---
 
-# ws443.conf.new.template
+# new ws443.conf.template
 ```nginx
 server {
     listen 443 ssl;
