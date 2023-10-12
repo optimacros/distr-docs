@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Debian
 description: 
 published: true
-date: 2022-11-10T14:39:40.540Z
+date: 2023-10-12T13:06:25.120Z
 tags: workspace, debian
 editor: markdown
 dateCreated: 2022-11-10T09:04:42.654Z
@@ -61,4 +61,5 @@ EOT
 
 systemctl enable lxc-net
 systemctl restart lxc-net
+systemctl start lxc
 ```
