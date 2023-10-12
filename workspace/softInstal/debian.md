@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Debian
 description: 
 published: true
-date: 2023-10-12T13:06:25.120Z
+date: 2023-10-12T13:08:02.044Z
 tags: workspace, debian
 editor: markdown
 dateCreated: 2022-11-10T09:04:42.654Z
@@ -17,7 +17,7 @@ dateCreated: 2022-11-10T09:04:42.654Z
 ```bash
 #!/bin/bash
 
-# Инструкция тестировалась на Debian 10
+# Инструкция тестировалась на Debian 10 (Debian 9 не находит lxc-templates, из-за чего не запускается WS)
 # Требуются права root пользователя
 # Версия: 4
 
