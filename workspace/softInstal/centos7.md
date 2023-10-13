@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Centos 7
 description: 
 published: true
-date: 2022-11-10T14:39:40.540Z
+date: 2023-10-13T09:38:18.171Z
 tags: workspace, centos
 editor: markdown
 dateCreated: 2022-11-10T10:04:27.991Z
@@ -61,7 +61,9 @@ tar -zxvf vagrant-lxc.tar.gz
 vagrant plugin install  --plugin-clean-sources vagrant-lxc.gem
 
 # Устанавливаем redir
-wget -c https://nextcloud.optimacros.com/s/j3Xwn2MGzsLRTES/download -O redir_3.3_centos8_x86_64.zip
+wget -c https://nextcloud.optimacros.com/s/j3Xwn2MGzsLRTES/download -O redir_3.3_centos8_x86_64.zip 
+# нужна актульная ссылка на скачивание, взять тут - 
+# https://nextcloud.optimacros.com/apps/files/?dir=/SOFTWARE_1/OM_DISTS/OTHER&fileid=4536185
 unzip redir_3.3_centos8_x86_64.zip
 cp redir /usr/bin/redir
 chmod +x /usr/bin/redir
