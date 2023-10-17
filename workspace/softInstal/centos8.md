@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Centos 8
 description: 
 published: true
-date: 2022-11-10T14:56:46.156Z
+date: 2023-10-17T20:14:00.051Z
 tags: workspace, centos
 editor: markdown
 dateCreated: 2022-11-10T14:56:05.732Z
@@ -21,7 +21,7 @@ set -ex
 cd /tmp
 
 yum -y install epel-release
-yum -y install nano tar zip unzip curl wget lxc lxc-templates
+yum -y install nano tar zip unzip curl wget lxc lxc-templates dnsmasq bridge-utils
 
 # Устанавливаем vagrant
 dnf install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
