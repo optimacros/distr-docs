@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Centos 8
 description: 
 published: true
-date: 2023-10-17T20:14:00.051Z
+date: 2023-10-17T20:14:44.702Z
 tags: workspace, centos
 editor: markdown
 dateCreated: 2022-11-10T14:56:05.732Z
@@ -12,7 +12,7 @@ dateCreated: 2022-11-10T14:56:05.732Z
 ```bash
 #!/bin/bash
 
-# Инструкция тестировалась на Centos 8, а так же для CentOS Stream release 8
+# Инструкция тестировалась на Centos 8 и 9, а так же для CentOS Stream release 8 и 9
 # Требует запуск под root пользователем
 # Версия: 2
 
