@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Centos 7
 description: 
 published: true
-date: 2023-10-13T09:38:18.171Z
+date: 2023-10-18T10:01:56.051Z
 tags: workspace, centos
 editor: markdown
 dateCreated: 2022-11-10T10:04:27.991Z
@@ -42,7 +42,7 @@ set -ex
 cd /tmp
 
 yum -y install epel-release
-yum -y install nano tar zip unzip curl wget lxc lxc-templates  lxc-extra libcap-devel libcgroup
+yum -y install nano tar zip unzip curl wget lxc lxc-templates  lxc-extra libcap-devel libcgroup dnsmasq bridge-utils
 
 # Устанавливаем vagrant
 yum install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
