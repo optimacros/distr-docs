@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Ubuntu
 description: 
 published: true
-date: 2023-10-23T17:14:32.973Z
+date: 2023-10-23T17:16:16.204Z
 tags: workspace, ubuntu
 editor: markdown
 dateCreated: 2022-11-10T09:09:11.362Z
@@ -34,7 +34,7 @@ wget -c https://nextcloud.optimacros.com/s/5stWoqsbK9DbTTQ/download -O vagrant_2
 dpkg -i vagrant_2.2.19_x86_64.deb
 
 # Устанавливаем LXC плагин для vagrant
-wget -c https://github.com/optimacros/vagrant-lxc/releases/download/v1.4.5/vagrant-lxc.tar.gz
+wget -c https://nextcloud.optimacros.com/s/NCSjgEdMw88Ncs4/download -O vagrant-lxc.tar.gz
 tar -zxvf vagrant-lxc.tar.gz
 vagrant plugin install  --plugin-clean-sources vagrant-lxc.gem
 ```
