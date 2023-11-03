@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Fedora
 description: 
 published: true
-date: 2023-11-03T08:43:52.133Z
+date: 2023-11-03T13:47:57.672Z
 tags: worksapce, fedora
 editor: markdown
 dateCreated: 2023-10-27T10:19:28.075Z
@@ -22,7 +22,7 @@ cd /tmp
 yum -y install nano tar zip unzip curl wget lxc lxc-templates dnsmasq bridge-utils
 
 # Устанавливаем vagrant
-dnf install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
+dnf install -y https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
 vagrant --version
 
 # Включить USE_LXC_BRIDGE в /etc/sysconfig/lxc
