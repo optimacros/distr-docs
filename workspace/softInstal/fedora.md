@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Fedora
 description: 
 published: true
-date: 2023-11-03T07:27:18.114Z
+date: 2023-11-03T08:43:52.133Z
 tags: worksapce, fedora
 editor: markdown
 dateCreated: 2023-10-27T10:19:28.075Z
@@ -19,7 +19,6 @@ set -ex
 
 cd /tmp
 
-yum -y install epel-release
 yum -y install nano tar zip unzip curl wget lxc lxc-templates dnsmasq bridge-utils
 
 # Устанавливаем vagrant
