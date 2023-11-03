@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Fedora
 description: 
 published: true
-date: 2023-10-27T10:19:28.075Z
+date: 2023-11-03T07:27:18.114Z
 tags: worksapce, fedora
 editor: markdown
 dateCreated: 2023-10-27T10:19:28.075Z
