@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Alt Linux
 description: 
 published: true
-date: 2022-11-11T05:31:50.725Z
+date: 2023-11-07T14:48:58.954Z
 tags: workspace, alt server, alt linux
 editor: markdown
 dateCreated: 2022-11-11T05:31:50.725Z
@@ -17,6 +17,7 @@ dateCreated: 2022-11-11T05:31:50.725Z
 Установим базовые утилиты для дальнейшей работы
 
 ```
+apt-get update
 apt-get install nano zip unzip net-tools telnet htop
 ```
 
