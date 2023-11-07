@@ -2,7 +2,7 @@
 title: Установка на на операционную систему RHEL 8
 description: 
 published: true
-date: 2023-11-01T13:31:42.724Z
+date: 2023-11-07T10:08:11.365Z
 tags: workspace, rhel
 editor: markdown
 dateCreated: 2022-11-10T09:11:13.145Z
@@ -24,7 +24,9 @@ cd /tmp
 
 # Должен быть предустановлен репозиторий Epel (Проверьте его наличие командой `yum repolist`)
 
-yum -y install nano tar zip unzip curl wget lxc lxc-templates
+yum -y install nano tar zip unzip curl wget lxc lxc-templates bridge-utils
+wget https://nextcloud.optimacros.com/s/TEbck25sqgggbQP/download/dnsmasq-2.65-1.el6.rfx.x86_64.rpm
+dnf install -y dnsmasq-2.65-1.el6.rfx.x86_64.rpm
 
 # Устанавливаем vagrant
 dnf install https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.rpm
