@@ -2,7 +2,7 @@
 title: Установка на на операционную систему Ubuntu
 description: 
 published: true
-date: 2023-10-23T17:16:16.204Z
+date: 2023-11-08T12:53:16.996Z
 tags: workspace, ubuntu
 editor: markdown
 dateCreated: 2022-11-10T09:09:11.362Z
@@ -30,17 +30,17 @@ apt-get install -y software-properties-common lxc lxc-templates bridge-utils red
 
 # Устанавливаем vagrant пакет
 cd /tmp
-wget -c https://nextcloud.optimacros.com/s/5stWoqsbK9DbTTQ/download -O vagrant_2.2.19_x86_64.deb
+wget -c https://releases.hashicorp.com/vagrant/2.2.19/vagrant_2.2.19_x86_64.deb
 dpkg -i vagrant_2.2.19_x86_64.deb
 
 # Устанавливаем LXC плагин для vagrant
-wget -c https://nextcloud.optimacros.com/s/NCSjgEdMw88Ncs4/download -O vagrant-lxc.tar.gz
+wget -c https://github.com/optimacros/vagrant-lxc/releases/download/v1.4.5/vagrant-lxc.tar.gz
 tar -zxvf vagrant-lxc.tar.gz
 vagrant plugin install  --plugin-clean-sources vagrant-lxc.gem
 ```
 
 # дополнительно для Ubuntu 22.04 
-/etc/default/lxc-net.conf
+/etc/default/lxc-net
 добавить строку 
 ```
 LXC_USE_NFT="false"
