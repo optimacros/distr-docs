@@ -1,8 +1,8 @@
 ---
 title: Настройка sudoers для работы Воркспейса.
 description: Файл sudoers описывает команды и их правила для управления Воркспейсом через sudo
-published: true
-date: 2023-11-27T21:41:54.135Z
+published: false
+date: 2023-11-27T21:42:25.230Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-27T21:41:54.135Z
