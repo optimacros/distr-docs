@@ -2,7 +2,7 @@
 title: Настройка sudoers для работы Воркспейса.
 description: Файл sudoers описывает команды и их правила для управления Воркспейсом через sudo
 published: false
-date: 2023-11-27T21:55:55.597Z
+date: 2023-11-30T10:46:50.521Z
 tags: 
 editor: markdown
 dateCreated: 2023-11-27T21:41:54.135Z
@@ -38,3 +38,19 @@ visudo /etc/sudoers.d/om-ws-installer
 в таком случае можно нажать
 `e` - вернуться в файл и исправить ошибку.
 `x` - отмена правок файла `sudoers`.
+
+## vagrant
+Для запуска инсталлятора от имени непривилегированного пользователя в режиме vagrant нужно выполнить команду
+```
+sudo vagrant lxc sudoers
+```
+которая создаст файл `/etc/sudoers.d/vagrant-lxc`:
+```
+# Automatically created by vagrant-lxc
+root ALL=(root) NOPASSWD: /usr/local/bin/vagrant-lxc-wrapper
+```
+Нужно с помощью команды 
+```
+sudo visudo -f /etc/sudoers.d/vagrant-lxc
+```
+заменить root в начале второй строки на нужного пользователя.
